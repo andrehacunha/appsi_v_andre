@@ -25,7 +25,7 @@ class _SegurancaState extends State<Seguranca> {
           ),
         ),
 
-// --> Text 'Complete seu Cadastro'
+// --> Text 'Alterar Senha'
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -70,7 +70,7 @@ class _SegurancaState extends State<Seguranca> {
                 ),
               ),
 
-// --> TextFormField Nome e Sobrenome
+// --> TextFormField 'Senha'
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -122,7 +122,7 @@ class _SegurancaState extends State<Seguranca> {
                   SizedBox(height: 12),
 // --> espaço
 
-// --> Button 'Entrar'
+// --> Button 'Salvar'
                   Padding(
                     padding: const EdgeInsets.all(50.0),
                     child: SizedBox(

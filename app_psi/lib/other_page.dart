@@ -38,6 +38,7 @@ class _OtherPage extends State<OtherPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+// --> Background com gradiente (Padrão em todas as páginas)
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
           setState(() {

@@ -12,10 +12,10 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-// --> Background com gradiente (Padrão em todas as páginas)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+// --> Background com gradiente (Padrão em todas as páginas)
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(

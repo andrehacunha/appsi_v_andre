@@ -31,10 +31,10 @@ class _HomeUserScreen extends State<HomeUserScrean> {
     }
   }
 
-// --> Background com gradiente (Padrão em todas as páginas)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+// --> Background com gradiente (Padrão em todas as páginas)
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(

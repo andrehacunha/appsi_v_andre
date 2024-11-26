@@ -14,10 +14,10 @@ class EditarPerfil extends StatefulWidget {
 class _EditarPerfilState extends State<EditarPerfil> {
   String? selectedGender;
 
-  // --> Background com gradiente (Padrão em todas as páginas)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+// --> Background com gradiente (Padrão em todas as páginas)
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -144,7 +144,7 @@ class _EditarPerfilState extends State<EditarPerfil> {
                       ),
                     ),
                   ),
-// --> TextFormField Email
+// --> TextFormField Telefone
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -191,7 +191,7 @@ class _EditarPerfilState extends State<EditarPerfil> {
                           ),
                         ),
                       ),
-// --> TextFormField Email
+// --> TextFormField Data Nascimento
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -239,7 +239,7 @@ class _EditarPerfilState extends State<EditarPerfil> {
                             ),
                           ),
 
-// --> TextFormField Email
+// --> TextFormField Gênero
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: SizedBox(
@@ -280,7 +280,7 @@ class _EditarPerfilState extends State<EditarPerfil> {
                               ),
                             ),
                           ),
-// --> Button 'Entrar'
+// --> Button 'Salvar'
                           Padding(
                             padding: const EdgeInsets.all(50.0),
                             child: SizedBox(

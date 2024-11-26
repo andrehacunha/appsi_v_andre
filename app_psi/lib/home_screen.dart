@@ -10,10 +10,10 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-// --> Background com gradiente (Padrão em todas as páginas)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+// --> Background com gradiente (Padrão em todas as páginas)
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
