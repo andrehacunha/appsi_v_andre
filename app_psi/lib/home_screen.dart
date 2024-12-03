@@ -1,3 +1,4 @@
+import 'package:app_psi/Register.dart';
 import 'package:app_psi/login_screen.dart';
 import 'package:app_psi/style_guide.dart';
 import 'package:flutter/material.dart';
@@ -71,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
 // --> Button 'Login'
                   SizedBox(
                     width: 260,
-                    height: 45,
+                    height: 50,
                     child: ElevatedButton(
                       onPressed: () {
                         Navigator.of(context).push(
@@ -107,7 +108,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 260,
                     height: 45,
                     child: OutlinedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => Register(),
+                          ),
+                        );
+                      },
                       style: OutlinedButton.styleFrom(
                         side: const BorderSide(
                           color: AppColors.BorderButtonTransparente,

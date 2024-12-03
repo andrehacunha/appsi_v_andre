@@ -161,6 +161,16 @@ class _OtherPage extends State<OtherPage> {
               ),
 // --> Emojis
               SizedBox(
+                height: 25,
+                child: const Text(
+                  'Meu humor hoje',
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: AppColors.appTextDark,
+                  ),
+                ),
+              ),
+              SizedBox(
                 width: 300,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -315,7 +325,7 @@ class _OtherPage extends State<OtherPage> {
 // --> Button 'Meu Divâ'
               SizedBox(
                 width: 260,
-                height: 45,
+                height: 50,
                 child: ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
@@ -353,7 +363,7 @@ class _OtherPage extends State<OtherPage> {
 // --> Button 'Buscar Profissional'
               SizedBox(
                 width: 260,
-                height: 45,
+                height: 50,
                 child: ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(

@@ -1,4 +1,6 @@
 // ignore: unused_import
+import 'package:app_psi/Register.dart';
+// ignore: unused_import
 import 'package:app_psi/editar_perfil.dart';
 // ignore: unused_import
 import 'package:app_psi/home_screen.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: Register(),
     );
   }
 }

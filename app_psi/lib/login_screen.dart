@@ -32,10 +32,14 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'Informe E-mail e Senha para acessar',
-                style: TextStyle(
-                  fontSize: 14,
+              SizedBox(
+                width: 360,
+                child: const Text(
+                  'Informe E-mail e Senha para acessar',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
 // --> espaço entre Text 'Informe E-mail e Senha para acessar' e TextFormField
@@ -45,10 +49,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(6.0),
+                    padding: const EdgeInsets.only(bottom: 6),
                     child: SizedBox(
-                      height: 40,
-                      width: 260,
+                      height: 50,
+                      width: 360,
                       child: TextFormField(
                         decoration: InputDecoration(
                           labelText: 'Didite seu E-mail',
@@ -68,10 +72,10 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
 // --> TextFormField Senha
                   Padding(
-                    padding: const EdgeInsets.all(6.0),
+                    padding: const EdgeInsets.only(top: 6),
                     child: SizedBox(
-                      height: 40,
-                      width: 260,
+                      height: 50,
+                      width: 360,
                       child: TextFormField(
                         obscureText: true,
                         decoration: InputDecoration(
@@ -96,13 +100,14 @@ class _LoginScreenState extends State<LoginScreen> {
               Column(
                 children: [
                   SizedBox(
-                    width: 260,
+                    width: 380,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Checkbox(
+                          activeColor: AppColors.backgroundform,
                           checkColor: AppColors.appTextWhite,
-                          value: false,
+                          value: true,
                           onChanged: (bool? value) {},
                         ),
                         const Text(
@@ -116,12 +121,35 @@ class _LoginScreenState extends State<LoginScreen> {
                   )
                 ],
               ),
+// --> espaço
+              SizedBox(height: 16),
+// --> Divider
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Ou acesse com',
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: AppColors.appTextDark,
+                    ),
+                  ),
+                ],
+              ),
+// --> Icon Button Google
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: GestureDetector(
+                  onTap: () {},
+                  child: Image.asset('assets/images/google_logo.png'),
+                ),
+              ),
 // --> Button 'Entrar'
               Padding(
                 padding: const EdgeInsets.all(50.0),
                 child: SizedBox(
                   width: 260,
-                  height: 45,
+                  height: 50,
                   child: ElevatedButton(
                     iconAlignment: IconAlignment.start,
                     onPressed: () {

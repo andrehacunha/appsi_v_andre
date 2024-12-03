@@ -1,0 +1,21 @@
+[debug] [2024-11-27T00:06:33.959Z] ----------------------------------------------------------------------
+[debug] [2024-11-27T00:06:33.961Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Andre H. Acunha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-27T00:06:33.962Z] CLI Version:   13.27.0
+[debug] [2024-11-27T00:06:33.962Z] Platform:      win32
+[debug] [2024-11-27T00:06:33.962Z] Node Version:  v22.11.0
+[debug] [2024-11-27T00:06:33.962Z] Time:          Tue Nov 26 2024 20:06:33 GMT-0400 (Horário Padrão do Amazonas)
+[debug] [2024-11-27T00:06:33.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-27T00:06:33.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-27T00:06:33.969Z] > authorizing via signed-in user (andrehacunha@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Arquivos No Sinc\Arquivos Dart\appsi_v_andre
+
